@@ -1,0 +1,23 @@
+{
+  "name": "hope",
+  "version": "1.0.0",
+  "description": "Hope Hack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreshSilvia/HOPE-HACK.git"
+  },
+  "author": "Jordan,Jay,Froy,Raph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreshSilvia/HOPE-HACK/issues"
+  },
+  "homepage": "https://github.com/FreshSilvia/HOPE-HACK#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
