@@ -16,6 +16,8 @@ mongoose.connect('mongodb+srv://JordanHoward:JH8311995@cluster0.zfgs7.mongodb.ne
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({ extended: false }))
 app.use(methodOverride('_method'))
+//This links styles here
+app.use('/public' , express.static('public'));
 
 
 app.get('/', async (req, res) => {
