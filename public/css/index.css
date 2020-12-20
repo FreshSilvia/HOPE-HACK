@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bloghead {
+    text-align: center;
+    margin-bottom: 4px;
+    padding: 10px;
+    color: black;
+    font-size: 100px;
+}
+
+.newbtn {
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: green;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.blog-title {
+    margin: 40px 20px 20px 50px;
+    font-size: 50px;
+}
+
+.date {
+    font-size: 20px;
+    color: gray;
+    margin: 0px 0px 15px 15px;
+}
+
+.blog-text {
+    font-size: 30px;
+    color: black;
+    margin: 0px 0px 20px 15px;
+}
+.btn-read {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-info {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(14, 146, 255);
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-del {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
