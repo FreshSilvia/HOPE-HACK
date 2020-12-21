@@ -19,9 +19,6 @@ router.get('/:slug', async (req,res) => {
     const blog = await Blog.findOne({ slug: req.params.slug })
     if (blog == null) res.redirect('/')
     res.render('blogs/show' , { blog: blog})
-    // Code broke here
-    // Page will not load with the id like on video 35 mins. cannot see id of blog.
-    // res.send(req.params.id)
 })
 
 //Post a Blog
