@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c5c5c5;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container {
+  background-color: #acacac;
+  width: 90%;
+  max-width: 800px;
+  margin: 10% auto 0% auto;
+  -webkit-box-shadow: 0px 0px 10px 7px;
+          box-shadow: 0px 0px 10px 7px;
+  padding: 50px 20px 0px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.bloghead {
+  text-align: center;
+  margin-bottom: 4px;
+  padding: 10px;
+  color: black;
+  font-size: 100px;
+}
+
+.newbtn {
+  padding: 5px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #c5c5c5;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.newbtn:hover {
+  background-color: #a10000;
+}
+
+.blog-title {
+  margin: 40px 20px 20px 50px;
+  font-size: 75px;
+}
+
+.date {
+  font-size: 20px;
+  color: gray;
+  margin: 0px 0px 20px 0px;
+}
+
+.blog-text {
+  font-size: 30px;
+  color: black;
+  margin: 30px 0px 30px 0px;
+}
+
+.btn-read {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #c5c5c5;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-read:hover {
+  background-color: #a10000;
+}
+
+.btn-info {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #c5c5c5;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-info:hover {
+  background-color: #a10000;
+}
+
+.btn-all {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #c5c5c5;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-all:hover {
+  background-color: #a10000;
+}
+/*# sourceMappingURL=show.css.map */

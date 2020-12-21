@@ -233,6 +233,18 @@ nav {
   padding: 0;
 }
 
+.container-blog {
+  background-color: #acacac;
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto 30px auto;
+  -webkit-box-shadow: 0px 0px 20px 7px;
+          box-shadow: 0px 0px 20px 7px;
+  padding: 50px 20px 0px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
 body {
   background-color: #c5c5c5;
   font-family: 'Poppins',sans-serif;
@@ -303,6 +315,10 @@ body {
   color: black;
 }
 
+.btn-info:hover {
+  background-color: #a10000;
+}
+
 .btn-del {
   padding: 5px;
   margin: 5px;
@@ -311,5 +327,10 @@ body {
   font-size: 25px;
   text-decoration: none;
   color: black;
+}
+
+.btn-del:hover {
+  background-color: #a10000;
+  cursor: pointer;
 }
 /*# sourceMappingURL=blog.css.map */
