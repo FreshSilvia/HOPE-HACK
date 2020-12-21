@@ -62,8 +62,8 @@ nav {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 61px 7px;
-          box-shadow: 0px 0px 61px 7px;
+  -webkit-box-shadow: 0px 0px 10px 7px;
+          box-shadow: 0px 0px 10px 7px;
   padding: 50px 20px 0px 20px;
   border-radius: 20px;
   text-align: center;
@@ -235,6 +235,7 @@ nav {
 
 body {
   background-color: #c5c5c5;
+  font-family: 'Poppins',sans-serif;
 }
 
 .bloghead {
@@ -249,10 +250,14 @@ body {
   padding: 5px;
   margin: 20px;
   border-radius: 5px;
-  background-color: green;
+  background-color: #c5c5c5;
   font-size: 25px;
   text-decoration: none;
   color: black;
+}
+
+.newbtn:hover {
+  background-color: #a10000;
 }
 
 .blog-title {
@@ -276,17 +281,23 @@ body {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
-  background-color: gray;
+  background-color: #c5c5c5;
   font-size: 25px;
   text-decoration: none;
   color: black;
+}
+
+.btn-read:hover {
+  background-color: #a10000;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .btn-info {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
-  background-color: #0e92ff;
+  background-color: #c5c5c5;
   font-size: 25px;
   text-decoration: none;
   color: black;
@@ -296,7 +307,7 @@ body {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
-  background-color: red;
+  background-color: #c5c5c5;
   font-size: 25px;
   text-decoration: none;
   color: black;

@@ -16,6 +16,7 @@ $slate: darken(#eceef1, 70%);
 
 body {
     background-color: $secondaryColor;
+    font-family: 'Poppins',sans-serif;
 }
 
 .bloghead {
@@ -30,10 +31,13 @@ body {
     padding: 5px;
     margin: 20px;
     border-radius: 5px;
-    background-color: green;
+    background-color: $secondaryColor;
     font-size: 25px;
     text-decoration: none;
     color: black;
+    &:hover{
+        background-color: $primaryColor;
+    }
 }
 
 .blog-title {
@@ -56,17 +60,21 @@ body {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
-    background-color: gray;
+    background-color: $secondaryColor;
     font-size: 25px;
     text-decoration: none;
     color: black;
+    &:hover{
+        background-color: $primaryColor;
+        transform: scale(1.05);
+    }
 }
 
 .btn-info {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
-    background-color: rgb(14, 146, 255);
+    background-color: $secondaryColor;
     font-size: 25px;
     text-decoration: none;
     color: black;
@@ -76,7 +84,7 @@ body {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
-    background-color: red;
+    background-color: $secondaryColor;
     font-size: 25px;
     text-decoration: none;
     color: black;
