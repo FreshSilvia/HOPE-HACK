@@ -31,7 +31,7 @@ Our homepage features a gallery that sources images from the online free use ima
 
 #### License
 
-MIT © Jordan, Froylan, Jay, Raphael
+MIT copyright © 2020, Beheard
 
 
 HOPE Hackathon, Group Project of R2H
