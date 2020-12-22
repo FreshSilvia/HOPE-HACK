@@ -17,7 +17,7 @@ Be Heard has the following functionality:
 
 # How to Use
 
-Once you clone the repo, run this line in your terminal from inside the repository you saved:
+Once you clone the repo, open the html in your browser (we reccomend a live runner like the Go Live extentsion for VS Code) run this line in your terminal from inside the repository you saved:
 
 ```
 npm run devstart
