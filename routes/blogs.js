@@ -5,16 +5,15 @@ const router = express.Router()
 // Get all Blogs 
 router.get('/new', async (req,res) => {
     res.render('blogs/new' , {blog: new Blog() })
-    // const blogs = await Blog.find().sort({ createdAt: 'desc' })
-    // res.send(blogs)
 })
 
+// Allows the user to edit that specific blog. 
 router.get('/edit/:id', async (req,res) => {
     const blog = await Blog.findById(req.params.id)
     res.render('blogs/edit', { blog: blog })
 })
 
-//Get a Blog by id
+//Get a Blog by id; Slug changes number based id into a string and removes spaces and other none letter keys
 router.get('/:slug', async (req,res) => {
     const blog = await Blog.findOne({ slug: req.params.slug })
     if (blog == null) res.redirect('/')
@@ -25,21 +24,6 @@ router.get('/:slug', async (req,res) => {
 router.post('/', async (req,res, next) => {
     req.blog = new Blog()
     next()
-    // let blog = new Blog({
-    //     title: req.body.title,
-    //     dateCreated: req.body.dateCreated,
-    //     description: req.body.description
-    // })
-    // try {
-    //     blog = await blog.save()
-    //     res.redirect(`/blogs/${blog.slug}`)
-    // } catch (e) {
-    //     console.log(e)
-    //     res.render('blogs/new' , {blog: blog})
-    // }
-    // // console.log(req.body);
-    // // res.send(req.body);
-    // // let newBlog = new Blog();
 }, saveBlogAndRedirect('new'))
 
 //Delete a Blog by id
